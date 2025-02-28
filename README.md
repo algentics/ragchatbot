@@ -1,40 +1,26 @@
 # RAG Chatbot
 
-A chatbot application with RAG (Retrieval-Augmented Generation) capabilities, user authentication, and subscription plans.
+RAG Chatbot is a Next.js application that implements a chatbot using Retrieval-Augmented Generation (RAG) with support for multiple AI providers and document management.
 
 ## Features
 
-- User authentication (sign up, sign in, sign out)
-- Chat interface with AI integration
-- Document upload and management
-- Vector database integration
-- Case management system
-- Admin panel for user and subscription management
-- RTL/LTR language support
-- Light/dark mode
+- Multi-provider LLM support (OpenAI, Azure, Anthropic, Amazon Bedrock, DeepSeek, Ollama)
+- Document management with support for PDF and DOCX formats
+- Customizable document chunking settings
+- User authentication and role-based access control
+- Supabase integration for database management
+- Pinecone integration for vector storage
 
-## Tech Stack
+## Prerequisites
 
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- Prisma ORM
-- PostgreSQL
-- AI SDK (OpenAI, Azure OpenAI, Anthropic)
-- shadcn/ui components
+- Node.js 18.x or later
+- npm or yarn
+- A Vercel account
+- Accounts for the AI providers you plan to use
+- Supabase account
+- Pinecone account
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18.18 or later
-- PostgreSQL database
-
-### Installation
+## Local Development
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/rag-chatbot.git
-cd rag-chatbot
 
